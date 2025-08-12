@@ -1,4 +1,4 @@
-#  SYN Video Cutter
+#  EditSuite
 
 
 A professional, modern GUI application for splitting videos into smaller segments with precision and ease.
@@ -10,7 +10,7 @@ A professional, modern GUI application for splitting videos into smaller segment
 
 ##  Overview
  
-**SYN Video Cutter** is a powerful, user-friendly video splitting tool that allows you to cut large videos into smaller, manageable segments. Whether you're preparing content for social media, creating video tutorials, or organizing your video library, this tool provides professional-grade video processing with an intuitive interface.
+**EditSuite** is a powerful, user-friendly video splitting tool that allows you to cut large videos into smaller, manageable segments. Whether you're preparing content for social media, creating video tutorials, or organizing your video library, this tool provides professional-grade video processing with an intuitive interface.
 
 ### Supported Formats
 
@@ -117,7 +117,7 @@ EditSuite/
 
 ### Environment Variables
 - `FFMPEG_PATH`: Custom FFmpeg installation path
-- `SYN_VC_OUTPUT`: Default output directory
+- `OUTPUT`: Default output directory
 
 ## 🐛 Troubleshooting
 
