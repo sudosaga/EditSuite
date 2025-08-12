@@ -12,6 +12,20 @@ A professional, modern GUI application for splitting videos into smaller segment
  
 **EditSuite** is a powerful, user-friendly video splitting tool that allows you to cut large videos into smaller, manageable segments. Whether you're preparing content for social media, creating video tutorials, or organizing your video library, this tool provides professional-grade video processing with an intuitive interface.
 
+
+### Key Features
+
+- **🎯 Precision Cutting**: Split videos to exact minute:second durations (e.g., 2:20 segments)
+- **🖱️ Drag & Drop Interface**: Simply drag video files into the application
+- **⚡ Background Processing**: Non-blocking UI with real-time progress tracking
+- **🎨 Modern Design**: Beautiful gradient interface with smooth animations
+- **📊 Live Preview**: See created segments with file sizes and play buttons
+- **🔧 Quality Control**: Choose from High/Medium/Low quality presets
+- **🔊 Audio Options**: Keep or remove audio from segments
+- **📁 Custom Output**: Choose your preferred output directory
+- **🚀 Batch Processing**: Process multiple segments automatically
+- **📋 Detailed Logging**: Real-time processing logs with emoji indicators
+
 ### Supported Formats
 
 - **Input**: MP4, AVI, MOV, MKV, WMV, FLV, WEBM, M4V
@@ -61,7 +75,50 @@ pip install PyQt5
 ```bash
 python EditSuite.py
 ```
-=
+
+
+##  How to Use
+
+### Basic Workflow
+
+1. **Launch Application**
+   ```bash
+   python EditSuite.py
+   ```
+
+2. **Load Video File**
+   - Drag & drop a video file into the drop area, OR
+   - Click the drop area to browse and select a file
+
+3. **Configure Settings**
+   - **Segment Duration**: Set minutes and seconds (e.g., 2 min 20 sec)
+   - **Video Quality**: Choose High/Medium/Low
+   - **Audio**: Toggle to keep or remove audio
+   - **Output Directory**: Choose where segments will be saved
+
+4. **Start Processing**
+   - Click "✂ Start Cutting Video"
+   - Monitor progress in real-time
+   - View created segments in the preview panel
+
+5. **Access Results**
+   - Use "📂 Open Output Folder" to view all segments
+   - Click "▶️ Play" on any segment to preview
+   - Segments are named: `videoname_part_001.mp4`, `videoname_part_002.mp4`, etc.
+
+### Advanced Features
+
+#### Quality Settings Explained
+- **High (Best)**: CRF 18 - Excellent quality, larger files
+- **Medium (Balanced)**: CRF 23 - Good quality, moderate size
+- **Low (Smaller files)**: CRF 28 - Compressed, smaller files
+
+#### Processing Options
+- **Keep Original Audio**: Maintains audio track with 128k AAC encoding
+- **Remove Audio**: Creates video-only segments (smaller file sizes)
+- **Custom Output Directory**: Organize segments in specific folders
+
+
 ##  Building Executable
 
 ### Using PyInstaller
@@ -195,3 +252,13 @@ PyQt5>=5.15.0
 ### Developer
 - **GitHub**: [@harik0411](https://github.com/harik0411/)
 - **Support**: ⭐ Star the repository if you find it useful!
+
+### v1.0.0 (Current)
+- ✅ Initial release
+- ✅ Modern PyQt5 interface
+- ✅ FFmpeg integration
+- ✅ Drag & drop support
+- ✅ Real-time progress tracking
+- ✅ Quality presets
+- ✅ Audio options
+- ✅ GitHub integration
