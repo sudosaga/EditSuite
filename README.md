@@ -192,25 +192,6 @@ PyQt5>=5.15.0
 - **Backup**: Create manageable backup segments
 - **Storage**: Reduce single file sizes for cloud storage
 
-## 🔄 Version History
-
-### v1.0.0 (Current)
-- ✅ Initial release
-- ✅ Modern PyQt5 interface
-- ✅ FFmpeg integration
-- ✅ Drag & drop support
-- ✅ Real-time progress tracking
-- ✅ Quality presets
-- ✅ Audio options
-- ✅ GitHub integration
-
-### Planned Features (v1.1.0)
-- 🔄 Batch file processing
-- 🔄 Video preview thumbnails
-- 🔄 Custom naming patterns
-- 🔄 Resume interrupted processing
-- 🔄 Command-line interface
-
 ### Developer
 - **GitHub**: [@harik0411](https://github.com/harik0411/)
 - **Support**: ⭐ Star the repository if you find it useful!
